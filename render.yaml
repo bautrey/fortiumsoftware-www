@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: fortiumsoftware-www
+    runtime: static
+    buildCommand: npm install && npm run build:css
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+    routes:
+      - type: rewrite
+        source: /engage
+        destination: /engage/index.html
+      - type: rewrite
+        source: /execute
+        destination: /execute/index.html

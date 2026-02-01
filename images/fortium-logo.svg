@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
+  <!-- Fortium Logo - Shield icon + wordmark -->
+
+  <!-- Shield icon -->
+  <g>
+    <!-- Shield background -->
+    <path d="M22 4L6 10v14c0 11.1 6.8 21.4 16 26 9.2-4.6 16-14.9 16-26V10L22 4z" fill="#2563eb"/>
+
+    <!-- Shield highlight -->
+    <path d="M22 4L6 10v14c0 11.1 6.8 21.4 16 26V4z" fill="#1d4ed8"/>
+
+    <!-- Checkmark -->
+    <path d="M15 24l5 5 9-11" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Wordmark: FORTIUM -->
+  <g fill="#1e3a8a">
+    <!-- F -->
+    <path d="M52 14h12v3.5h-8v5h7v3.5h-7v9H52V14z"/>
+
+    <!-- O -->
+    <path d="M66 24.5c0-6.4 4.2-11 10-11s10 4.6 10 11c0 6.4-4.2 11-10 11s-10-4.6-10-11zm15.5 0c0-4.2-2.2-7.2-5.5-7.2s-5.5 3-5.5 7.2c0 4.2 2.2 7.2 5.5 7.2s5.5-3 5.5-7.2z"/>
+
+    <!-- R -->
+    <path d="M90 14h9c5.2 0 8.2 2.8 8.2 7.2 0 3.2-1.6 5.6-4.4 6.6L108 35h-5l-4.6-6.4H94V35h-4V14zm8.6 11.4c2.8 0 4.2-1.2 4.2-3.8 0-2.6-1.4-4-4.2-4H94v7.8h4.6z"/>
+
+    <!-- T -->
+    <path d="M114 17.5h-6V14h16v3.5h-6V35h-4V17.5z"/>
+
+    <!-- I -->
+    <path d="M128 14h4v21h-4V14z"/>
+
+    <!-- U -->
+    <path d="M138 14h4v13c0 3 1.8 4.8 4.5 4.8s4.5-1.8 4.5-4.8V14h4v13c0 5.2-3.4 8.5-8.5 8.5S138 32.2 138 27V14z"/>
+
+    <!-- M -->
+    <path d="M158 14h5.4l5.6 14.6L174.6 14H180v21h-3.8V20.4l-5.8 14.6h-3l-5.8-14.6V35H158V14z"/>
+  </g>
+</svg>
